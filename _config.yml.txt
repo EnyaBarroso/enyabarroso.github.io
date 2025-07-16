@@ -1,0 +1,6 @@
+title: Enya Alvarez Barroso
+logo: assets/img/mi_foto.png
+description: ¡Hola! Te doy la bienvenida a mi portafolio de proyectos de Científico de Datos.
+show_downloads: false
+#google_analytics:
+theme: jekyll-theme-minimal
