@@ -39,7 +39,17 @@ Combino habilidades analíticas con una mentalidad orientada a resultados para r
 
 ### **1. Predicción de Churn en Telecomunicaciones**  
 🔗 **[Ver proyecto](https://enyabarroso.github.io/Churn-prediction-in-telecommunications/)**  
- 
+
+#### **📌 Tipo de Proyecto**  
+🔹 **Machine Learning Supervisado** (Clasificación Binaria)  
+🔹 **Análisis Predictivo**  
+
+#### **🛠️ Herramientas**  
+- **Lenguajes**: Python  
+- **Librerías**: Pandas, Scikit-learn, XGBoost, Matplotlib  
+- **Visualización**: Seaborn, Plotly  
+- **Otros**: Jupyter Notebooks, Git 
+
 Análisis predictivo para identificar clientes con alto riesgo de cancelar sus servicios en una empresa de telecomunicaciones.  
 
 **Preguntas clave**:  
