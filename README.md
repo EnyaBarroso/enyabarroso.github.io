@@ -63,13 +63,17 @@ Análisis predictivo para identificar clientes con alto riesgo de cancelar sus s
 4. **Evaluación**: Matriz de confusión y curva ROC.  
 
 #### **📈 Visualizaciones Destacadas**  
-1. **Correlación entre variables**:  
-   ![Heatmap de Correlación](assets/img/churn_heatmap.png)  
-   *Figura 1: Variables como "Monthly Charges" y "Tenure" muestran alta correlación con el churn.*  
+1. **Importancia de características**:  
+   ![Feature Importance](https://raw.githubusercontent.com/EnyaBarroso/Churn-prediction-in-telecommunications/main/images/Contract_Month-to-month.png)  
+   *Figura 1: "Contract_Month-to-month" es el predictor más fuerte de churn.*  
 
-2. **Importancia de características**:  
-   ![Feature Importance](assets/img/churn_features.png)  
-   *Figura 2: El modelo XGBoost identificó "Contract_Month-to-month" como el predictor más fuerte.*  
+2. **Relación con cargos mensuales**:  
+   ![Monthly Charges](https://raw.githubusercontent.com/EnyaBarroso/Churn-prediction-in-telecommunications/main/images/Montly_Charges.png)  
+   *Figura 2: Clientes con cargos altos tienen mayor riesgo.*  
+
+3. **Antigüedad del cliente (Tenure)**:  
+   ![Tenure](https://raw.githubusercontent.com/EnyaBarroso/Churn-prediction-in-telecommunications/main/images/Tenure.png)  
+   *Figura 3: Menor antigüedad = Mayor probabilidad de churn.*  
 
 #### **✅ Conclusiones y Recomendaciones**  
 - **Hallazgos**: Clientes con contratos mensuales tienen un 30% más de probabilidad de churn.  
@@ -84,40 +88,34 @@ Análisis predictivo para identificar clientes con alto riesgo de cancelar sus s
 🔗 **[Ver proyecto](https://enyabarroso.github.io/Instacart/)**  
 
 #### **📌 Introducción**  
-Estudio de patrones de compra en Instacart para optimizar recomendaciones y aumentar la retención.  
+Análisis de patrones de compra en Instacart para optimizar recomendaciones y estrategias de retención.  
 
 **Preguntas clave**:  
-- ¿Qué productos se compran juntos con más frecuencia?  
-- ¿Cómo segmentar a los clientes para marketing personalizado?  
+- ¿Qué productos tienen mayor frecuencia de recompra?  
+- ¿Cómo agrupar productos para promociones combinadas?  
 
 #### **📊 Metodología**  
-1. **Análisis exploratorio**: Frecuencia de compra por departamento.  
-2. **Segmentación RFM**: (Recency, Frequency, Monetary).  
-3. **Market Basket Analysis**: Reglas de asociación (Apriori Algorithm).  
+1. **Limpieza de datos**:  
+   - Tratamiento de valores nulos en órdenes.  
+   - Normalización de nombres de productos.  
+2. **Análisis RFM**:  
+   - Segmentación por **Recencia (R)**, **Frecuencia (F)** y **Valor Monetario (M)**.  
+3. **Reglas de asociación**:  
+   - Identificación de pares de productos frecuentes (soporte > 5%).  
 
 #### **📈 Visualizaciones Destacadas**  
-1. **Segmentación de clientes**:  
-   ![RFM Clusters](assets/img/instacart_rfm.png)  
-   *Figura 3: Clústeres de clientes basados en comportamiento (RFM).*  
+1. **Top 20 productos más reordenados**:  
+   ![Top Reorders](https://raw.githubusercontent.com/EnyaBarroso/Instacart/main/images/Top%2020%20Most%20Frequently%20Reordered%20Items.png)  
+   *Figura 1: Distribución de productos con mayor tasa de recompra.*  
 
-2. **Productos más vendidos**:  
-   ![Top Products](assets/img/instacart_top_products.png)  
-   *Figura 4: Los productos orgánicos representan el 40% de las ventas.*  
+2. **Productos más comunes en el primer pedido**:  
+   ![First Cart Items](https://raw.githubusercontent.com/EnyaBarroso/Instacart/main/images/Top%2020%20Items%20People%20Put%20First%20in%20Their%20Carts.png)  
+   *Figura 2: Productos frecuentes en carritos iniciales.*  
 
-#### **✅ Conclusiones y Recomendaciones**  
-- **Hallazgos**: Los clientes "Leales" (20% del total) generan el 60% de los ingresos.  
-- **Acciones**:  
-  - Paquetes promocionales para productos complementarios (ej: pan + mantequilla).  
-  - Programa de fidelización para el segmento "High-Value".  
-
----
-
-## **📊 Dashboard Interactivo**  
-<div align="center">
-  <img src="assets/img/dashboard_instacart.png" alt="Dashboard Tableau" width="600">  
-  *Dashboard de Tableau con métricas clave de Instacart.*  
-</div>
-
-<div style="background-color: #e6f7ff; padding: 15px; border-left: 5px solid #1890ff; margin: 20px 0;">
-  🔍 **¿Quieres profundizar?** Explora el [código completo](https://github.com/enyabarroso/Instacart) y los informes técnicos.  
-</div>
+#### **✅ Hallazgos y Acciones**  
+- **Resultados clave**:  
+  - 15% de clientes ("Premium") generan 60% de ingresos.  
+  - Los productos orgánicos tienen 3x más probabilidad de recompra.  
+- **Recomendaciones**:  
+  - **Paquetes "Primer Carrito"**: Descuentos en productos de la Figura 2.  
+  - **Recomendaciones cruzadas**: Sugerir productos de la Figura 1 en checkout.  
