@@ -1,10 +1,6 @@
 # Enya Alvarez Barroso
 ## Científica de Datos | Analítica de Negocios | Machine Learning 👩‍💻    
 
-<div align="center">
-  <img src="assets/img/mi_foto.png" alt="Tu foto" width="200" style="border-radius: 50%;">
-</div>
-
 ---
 
 ¡Hola! Te doy la bienvenida a mi portafolio como científica de datos apasionada por transformar datos en insights accionables.  
