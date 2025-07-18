@@ -1,4 +1,3 @@
-# Enya Alvarez Barroso
 ## Científica de Datos | Analítica de Negocios | Machine Learning 👩‍💻    
 
 --- 
