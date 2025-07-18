@@ -23,7 +23,7 @@ Combino habilidades analíticas con una mentalidad orientada a resultados para r
 <a href="https://www.linkedin.com/in/marielalegoma/" target="_blank">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>-->
-[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/malegoma/](https://www.linkedin.com/in/enya-alvarez-barroso/))
+[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)]([(https://www.linkedin.com/in/enya-alvarez-barroso/)])
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EnyaBarroso)
 
 * * *
